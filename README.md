@@ -16,7 +16,7 @@ Source (software &amp; hardware) for the [not-yet-achieved] first ever Pulsar de
 
 ## Hardware
 - **Parabolic antenna aperture:** 1.5m ([PICTOR](https://github.com/0xCoto/PICTOR))
-- **Feed:** [Cloverleaf Antenna](https://arxiv.org/pdf/1708.08521.pdf) (identical to the used on [CHIME](https://chime-experiment.ca))
+- **Feed:** [Cloverleaf Antenna](https://arxiv.org/pdf/1708.08521.pdf) (identical to the one used on [CHIME](https://chime-experiment.ca))
 - **First-stage LNA:** [Mini-Circuits ZX60-P103LN+](https://www.minicircuits.com/pdfs/ZX60-P103LN+.pdf) (NF ≈ 0.4 dB, G ≈ 20 dB)
 - **In-line amplifier:** [Mini-Circuits ZX60-P103LN+](https://www.minicircuits.com/pdfs/ZX60-P103LN+.pdf) (NF ≈ 0.4 dB, G ≈ 20 dB)
 - **Transmission line:** 3-meter LMR-400 Coaxial Cable (insertion loss: ~0.3 dB)
