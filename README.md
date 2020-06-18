@@ -4,11 +4,11 @@ Source (software &amp; hardware) for the [not-yet-achieved] first ever Pulsar de
 ## Software
 
 ### RFI analysis
-- [CygnusRFI](https://github.com/0xCoto/CygnusRFI) for **frequency-domain** search
-- [VIRGO](https://github.com/0xCoto/VIRGO) for **time-domain** analysis
+- [CygnusRFI](https://github.com/0xCoto/CygnusRFI) for **frequency-domain** search.
+- [VIRGO](https://github.com/0xCoto/VIRGO) for **time-domain** analysis.
 
 ### Pulsar data acquisition & pre-processing
-Pulsar channelizer (GNU Radio flowgraph that performs real-time digital signal processing and writes the data directly to a filterbank-formatted file for further processing & analysis with e.g. [PRESTO](https://github.com/scottransom/presto)).
+- Pulsar channelizer (GNU Radio flowgraph that performs real-time digital signal processing and writes the data directly to a filterbank-formatted file for further processing & analysis with e.g. [PRESTO](https://github.com/scottransom/presto)). To be uploaded.
 
 ### Pulsar data analysis
 - [PRESTO](https://github.com/scottransom/presto) for de-dispersion and folding (DM-search and P-search also used).
