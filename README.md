@@ -24,3 +24,9 @@ Source (software &amp; hardware) for the [not-yet-achieved] first ever Pulsar de
 - **Computer for real-time DSP:** [Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)\*
 
 *\*Installed inside a custom-built double-shielded Faraday cage for EMI mitigation and EMC maximization.*
+
+### RFI mitigation from hardware
+For EMI suppresion (spurious emission reduction), two Faraday cages were considered: one that had a single layer of shielding, and one that had a double layer of shielding (custom-built with two fans for heat dissipation). For a sample frequency of **460 MHz**, preliminary EMI tests have given the following results:
+![Preliminary EMI Test Results](https://i.imgur.com/aNMDl4k.png)
+
+The apparent inconsistency appears to be due to SDR noise floor variability with time (e.g. SDR temperature (T) is proportional to the system noise temperature (T_sys) and dT/dt ≠ 0). Therefore, because the measurements were taken at slightly different times (waiting for each measurement to finish), the noise floor varies (T ∝ T_sys ∧ dT/dt ≠ 0 ∴ dT_sys/dt ≠ 0)).
