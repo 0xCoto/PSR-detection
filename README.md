@@ -30,3 +30,20 @@ For EMI suppresion (spurious emission reduction), two Faraday cages were conside
 ![Preliminary EMI Test Results](https://i.imgur.com/aNMDl4k.png)
 
 The apparent inconsistency appears to be due to SDR noise floor variability with time (e.g. SDR temperature (T) is proportional to the system noise temperature (T_sys) and dT/dt ≠ 0). Therefore, because the measurements were taken at slightly different times (waiting for each measurement to finish), the noise floor varies (T ∝ T_sys ∧ dT/dt ≠ 0 ∴ dT_sys/dt ≠ 0)). Besides internal factors, T_ant variability (caused by DUT-unrelated RFI) may also have a significant impact.
+
+### Further EMC updates
+Further preliminary EMI checks, this time on a different receiving computer candidate:
+![EMI Check](https://i.imgur.com/aNMDl4k.png)
+
+##### Reference level
+EMI Source (DUT under suspicion) out of the antenna's beam (equivalent to turning it off):
+![EMI Check](https://i.imgur.com/zC0v21f.jpg)
+
+##### EMI Source in front of the beam
+![EMI Check](https://i.imgur.com/HsgBkaM.jpg)
+
+##### Narrower span
+![EMI Check](https://i.imgur.com/AdguLUM.jpg)
+
+##### Pulse profile span
+![EMI Check](https://i.imgur.com/FjZIeI2.jpg)
