@@ -33,7 +33,7 @@ The apparent inconsistency appears to be due to SDR noise floor variability with
 
 ### Further EMC updates
 Further preliminary EMI checks, this time on a different receiving computer candidate:
-![EMI Check](https://i.imgur.com/aNMDl4k.png)
+![EMI Check](https://i.imgur.com/Vkt4Ihi.jpg)
 
 ##### Reference level
 EMI Source (DUT under suspicion) out of the antenna's beam (equivalent to turning it off):
