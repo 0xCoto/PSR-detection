@@ -48,4 +48,4 @@ EMI Source (DUT under suspicion) out of the antenna's beam (equivalent to turnin
 ##### Pulse profile span
 ![EMI Check](https://i.imgur.com/FjZIeI2.jpg)
 
-More TBA
+More to be added soon...
