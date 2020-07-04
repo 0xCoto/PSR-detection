@@ -1,5 +1,5 @@
 # PSR-detection
-Source (software &amp; hardware) for Pulsar detection
+Source (software &amp; hardware) for PSR detection
 
 ## Software
 
@@ -7,10 +7,10 @@ Source (software &amp; hardware) for Pulsar detection
 - [CygnusRFI](https://github.com/0xCoto/CygnusRFI) for **frequency-domain** search.
 - [VIRGO](https://github.com/0xCoto/VIRGO) for **time-domain** analysis.
 
-### Pulsar data acquisition & pre-processing
-- Pulsar channelizer (GNU Radio flowgraph that performs real-time digital signal processing and writes the data directly to a filterbank-formatted file for further processing & analysis with e.g. [PRESTO](https://github.com/scottransom/presto)). To be uploaded.
+### PSR data acquisition & pre-processing
+- PSR channelizer (GNU Radio flowgraph that performs real-time digital signal processing and writes the data directly to a filterbank-formatted file for further processing & analysis with e.g. [PRESTO](https://github.com/scottransom/presto)). To be uploaded.
 
-### Pulsar data analysis
+### PSR data analysis
 - [PRESTO](https://github.com/scottransom/presto) for de-dispersion and folding (DM-search and P-search also used).
 - Potentially a variation of [simpleReader](https://github.com/0xCoto/simpleReader) in the future for further feature support.
 
